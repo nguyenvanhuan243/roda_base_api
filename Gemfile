@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+ruby '3.0.0'
+gem 'roda'
+gem 'json'
+gem 'puma', '< 7'

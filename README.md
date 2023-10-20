@@ -1,2 +1,2 @@
-# roda_base_api
-roda_base_api
+# start roda: puma config.ru 
+# api: http://localhost:9292/api/hello
