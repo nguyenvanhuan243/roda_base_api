@@ -36,3 +36,7 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Bundle Install
       run: bundle install
+    - name: Deploy To Render Server
+      run: curl -s https://api.render.com/deploy/srv-ckpj56g5vl2c73fa47gg?key=si9b77hGakU
+
+     
