@@ -2,14 +2,22 @@ GEM
   remote: https://rubygems.org/
   specs:
     json (2.6.3)
+    json (2.6.3-java)
     nio4r (2.5.9)
+    nio4r (2.5.9-java)
     puma (6.4.0)
+      nio4r (~> 2.0)
+    puma (6.4.0-java)
       nio4r (~> 2.0)
     rack (3.0.8)
     roda (3.73.0)
       rack
 
 PLATFORMS
+  java
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
   x86_64-darwin-21
 
 DEPENDENCIES
